@@ -57,16 +57,20 @@
 .icon-favs:before { content: '\e803'; } /* '' */
 
 /*CSS FOR BUTTONS*/
+h1 {
+	color: #FFF;
+}
+
 body {
 	font-family: Arial,Helvetica,sans-serif;
-	color:#555;
-	background:#ddd;
+	color:# #FFFFFF;
+	background: url("http://i.huffpost.com/gen/1279332/thumbs/o-LULULEMON-SIZES-facebook.jpg");
 }
 
 button {
 	padding: 0.8em 0em;
 	width:350px;
-	background: #ff6e00;
+	background: #FFFFFF;
 	border-radius:15px;
 	border:0;
 	color:#fff;
