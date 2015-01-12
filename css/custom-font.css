@@ -1,3 +1,4 @@
+/*CSS FOR CUSTOM FONT*/
 @font-face {
   font-family: 'custom-font';
   src: url('../fonts/custom-font.eot');
@@ -54,3 +55,40 @@
 .icon-basket:before { content: '\e801'; } /* '' */
 .icon-chat:before { content: '\e802'; } /* '' */
 .icon-favs:before { content: '\e803'; } /* '' */
+
+/*CSS FOR BUTTONS*/
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	color:#555;
+	background:#ddd;
+}
+
+button {
+	padding: 0.8em 0em;
+	width:350px;
+	background: #ff6e00;
+	border-radius:15px;
+	border:0;
+	color:#fff;
+	font-size:1.2em;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	cursor:pointer;
+	margin:1em 2em;
+	text-transform:uppercase;
+}    
+
+.letters{
+	white-space:nowrap;
+	overflow:hidden;
+	transition: letter-spacing 3s;
+	-webkit-transition: letter-spacing 3s; /* Safari */
+	transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+}
+
+.letters:hover{
+	letter-spacing:320px;
+	transition-delay: 0s;
+	-webkit-transition-delay: 0s;  
+}
